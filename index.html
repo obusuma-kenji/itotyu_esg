@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>伊藤忠グループ ESGレポート2024｜持続可能な価値創造ロードマップ</title>
+  <meta name="description" content="伊藤忠グループ ESGレポート2024のエグゼクティブ・サマリー、公式レポートPDF、動画・音声を統合した紹介LP。三方よし、環境、社会、ガバナンス、人的資本、サステナブルファイナンスを一望できます。" />
+  <style>
+    :root{
+      --blue:#004b8d;
+      --blue2:#0b75bc;
+      --deep:#07355f;
+      --green:#168a5a;
+      --orange:#e68123;
+      --purple:#76539f;
+      --ink:#102033;
+      --muted:#64748b;
+      --paper:#fbfaf6;
+      --line:#d8e3ee;
+      --card:#ffffff;
+      --shadow:0 22px 60px rgba(5, 35, 70, .16);
+      --radius:28px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(0,112,186,.16), transparent 28rem),
+        radial-gradient(circle at 84% 12%, rgba(22,138,90,.15), transparent 26rem),
+        linear-gradient(180deg,#f6fbff 0%,#fffdf7 38%,#f6faf7 100%);
+      line-height:1.8;
+      overflow-x:hidden;
+    }
+    a{color:inherit;text-decoration:none}
+    img,video{max-width:100%;display:block}
+    .wrap{width:min(1160px, calc(100% - 40px));margin-inline:auto}
+    .nav{
+      position:sticky;top:0;z-index:50;
+      backdrop-filter: blur(18px);
+      background:rgba(255,255,255,.84);
+      border-bottom:1px solid rgba(0,75,141,.12);
+    }
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:12px 0}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900;color:var(--blue);letter-spacing:.02em}
+    .brand-mark{width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,var(--blue),#2aa7df);display:grid;place-items:center;color:white;box-shadow:0 10px 26px rgba(0,75,141,.25)}
+    .nav-links{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+    .nav-links a{font-size:13px;font-weight:800;color:#31506d;padding:8px 11px;border-radius:999px}
+    .nav-links a:hover{background:#eaf4fb;color:var(--blue)}
+    .hero{position:relative;min-height:760px;display:grid;align-items:center;padding:70px 0 60px;isolation:isolate}
+    .hero:before{
+      content:"";position:absolute;inset:0;z-index:-2;
+      background-image:linear-gradient(90deg, rgba(246,251,255,.96) 0%, rgba(246,251,255,.84) 43%, rgba(246,251,255,.23) 72%, rgba(246,251,255,.78) 100%), url('hero.png');
+      background-size:cover;background-position:center right;
+    }
+    .hero:after{content:"";position:absolute;inset:auto -10% -14% -10%;height:220px;background:linear-gradient(180deg,transparent,#fffdf8);z-index:-1}
+    .eyebrow{display:inline-flex;gap:8px;align-items:center;padding:8px 14px;border:1px solid rgba(0,75,141,.18);background:rgba(255,255,255,.75);border-radius:999px;font-weight:900;color:var(--blue);box-shadow:0 12px 28px rgba(0,75,141,.08)}
+    .eyebrow span{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 5px rgba(22,138,90,.12)}
+    h1{font-size:clamp(38px, 5vw, 78px);line-height:1.08;letter-spacing:-.04em;margin:22px 0 18px;color:#07355f}
+    .lead{font-size:clamp(18px, 2vw, 25px);max-width:760px;font-weight:800;color:#24384d;line-height:1.65;margin:0 0 28px}
+    .hero-copy{max-width:790px}
+    .cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:999px;padding:14px 22px;font-weight:900;letter-spacing:.01em;cursor:pointer;transition:.2s ease;box-shadow:0 15px 32px rgba(7,53,95,.15)}
+    .btn.primary{background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff}
+    .btn.secondary{background:#fff;color:var(--blue);border:1px solid rgba(0,75,141,.18)}
+    .btn:hover{transform:translateY(-2px);filter:saturate(1.06)}
+    .hero-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:42px;max-width:880px}
+    .stat{background:rgba(255,255,255,.82);border:1px solid rgba(0,75,141,.13);border-radius:22px;padding:17px 18px;box-shadow:0 16px 40px rgba(7,53,95,.08)}
+    .stat b{display:block;font-size:28px;color:var(--blue);line-height:1.1}
+    .stat span{font-size:13px;font-weight:800;color:#52677c}
+    section{padding:76px 0}
+    .section-head{display:grid;grid-template-columns:minmax(0, 1fr) minmax(260px, 450px);gap:38px;align-items:end;margin-bottom:34px}
+    .section-kicker{font-weight:900;color:var(--blue2);letter-spacing:.12em;text-transform:uppercase;font-size:13px;margin-bottom:8px}
+    h2{font-size:clamp(30px, 3.4vw, 52px);line-height:1.18;letter-spacing:-.04em;margin:0;color:var(--deep)}
+    .section-head p{margin:0;color:#53687d;font-weight:700}
+    .panel{background:rgba(255,255,255,.86);border:1px solid rgba(0,75,141,.12);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+    .roadmap-card{padding:20px;background:#fff}
+    .roadmap-card img{border-radius:22px;border:1px solid #e2edf5}
+    .note{margin-top:14px;color:#657b90;font-size:13px}
+    .grid{display:grid;gap:22px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    .grid.cols-2{grid-template-columns:repeat(2,1fr)}
+    .card{background:rgba(255,255,255,.88);border:1px solid rgba(0,75,141,.12);border-radius:24px;padding:24px;box-shadow:0 16px 44px rgba(7,53,95,.09);position:relative;overflow:hidden}
+    .card:before{content:"";position:absolute;inset:0 0 auto 0;height:5px;background:linear-gradient(90deg,var(--blue),var(--green),var(--orange));opacity:.85}
+    .card h3{font-size:22px;line-height:1.35;margin:8px 0 10px;color:var(--deep)}
+    .card p{margin:0;color:#53687d;font-weight:700}
+    .pill{display:inline-flex;align-items:center;gap:8px;border-radius:999px;background:#edf7ff;color:var(--blue);font-size:12px;font-weight:900;padding:6px 10px}
+    .theme-card{min-height:240px;display:flex;flex-direction:column;justify-content:space-between}
+    .theme-card.env:before{background:linear-gradient(90deg,#70bf44,#0e8f60)}
+    .theme-card.soc:before{background:linear-gradient(90deg,#ff9b36,#e35e2c)}
+    .theme-card.gov:before{background:linear-gradient(90deg,#76539f,#ad6ab4)}
+    .theme-list{display:grid;gap:12px;margin-top:16px}
+    .theme-list div{display:flex;gap:10px;align-items:flex-start;color:#435970;font-weight:800;background:#f7fbff;border:1px solid #e5eef7;border-radius:16px;padding:12px}
+    .num{min-width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#fff;color:var(--blue);font-weight:900;border:1px solid #dbe8f3}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:stretch}
+    .media-box{background:#0b1f33;border-radius:28px;overflow:hidden;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.18)}
+    .media-box video{width:100%;aspect-ratio:16/9;background:#000}
+    .media-caption{padding:18px 20px;color:#dcecff;font-weight:800}
+    .audio-card{background:linear-gradient(135deg,#08365f,#0b75bc);border-radius:28px;color:#fff;padding:28px;box-shadow:var(--shadow);min-height:100%;display:flex;flex-direction:column;justify-content:center}
+    .audio-card h3{font-size:28px;line-height:1.3;margin:0 0 10px}
+    .audio-card p{color:#dcecff;font-weight:700;margin:0 0 20px}
+    audio{width:100%}
+    .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .step{background:#fff;border:1px solid #e2edf5;border-radius:22px;padding:20px;box-shadow:0 12px 34px rgba(7,53,95,.08)}
+    .step b{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:14px;background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;margin-bottom:12px}
+    .step h3{margin:0 0 8px;color:var(--deep);font-size:19px}
+    .step p{margin:0;color:#53687d;font-weight:700;font-size:14px}
+    .pdf-area{background:#fff;border-radius:30px;border:1px solid #dfeaf4;box-shadow:var(--shadow);overflow:hidden}
+    .pdf-tabs{display:flex;gap:10px;flex-wrap:wrap;padding:18px;background:#f3f8fc;border-bottom:1px solid #dfeaf4}
+    .tab{border:1px solid #d4e4f1;background:#fff;color:#31506d;border-radius:999px;padding:10px 14px;font-weight:900;cursor:pointer}
+    .tab.active{background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;border-color:transparent}
+    .pdf-toolbar{display:flex;justify-content:space-between;gap:14px;align-items:center;flex-wrap:wrap;padding:16px 18px;border-bottom:1px solid #e7eef5}
+    .pdf-title{font-weight:900;color:var(--deep)}
+    .pdf-frame{width:100%;height:720px;border:0;display:block;background:#f8fbfe}
+    .download-mini{font-size:13px;font-weight:900;color:var(--blue);background:#edf7ff;border:1px solid #d8eaf8;border-radius:999px;padding:8px 12px}
+    .final-cta{position:relative;overflow:hidden;border-radius:34px;background:linear-gradient(135deg,#07355f 0%,#004b8d 55%,#168a5a 100%);color:#fff;padding:48px;box-shadow:var(--shadow)}
+    .final-cta:after{content:"";position:absolute;right:-120px;top:-120px;width:330px;height:330px;border-radius:50%;background:rgba(255,255,255,.12)}
+    .final-cta h2{color:#fff}
+    .final-cta p{max-width:760px;color:#e2f1ff;font-weight:800}
+    footer{padding:36px 0 60px;color:#64748b;font-size:13px}
+    .footer-grid{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;border-top:1px solid #dce8f3;padding-top:20px}
+    .sources{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+    @media (max-width: 900px){
+      .nav-links{display:none}
+      .hero{min-height:auto;padding:56px 0}
+      .hero:before{background-image:linear-gradient(180deg, rgba(246,251,255,.96), rgba(246,251,255,.85)), url('hero.png');background-position:center}
+      .hero-stats,.grid.cols-3,.grid.cols-2,.timeline,.split,.section-head{grid-template-columns:1fr}
+      h1{font-size:42px}
+      .pdf-frame{height:560px}
+      .final-cta{padding:30px}
+    }
+    @media (max-width: 560px){
+      .wrap{width:min(100% - 24px, 1160px)}
+      .hero-stats{grid-template-columns:1fr 1fr}
+      .cta-row .btn{width:100%}
+      section{padding:54px 0}
+      .pdf-frame{height:460px}
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top"><span class="brand-mark">ESG</span><span>ITOCHU ESG 2024 LP</span></a>
+      <div class="nav-links">
+        <a href="#roadmap">全体像</a>
+        <a href="#materiality">7つの重要課題</a>
+        <a href="#human">人的資本</a>
+        <a href="#environment">環境・VC</a>
+        <a href="#documents">資料PDF</a>
+      </div>
+    </div>
+  </nav>
+
+  <header id="top" class="hero">
+    <div class="wrap hero-copy">
+      <div class="eyebrow"><span></span> ESG Report 2024 Executive Landing Page</div>
+      <h1>「三方よし資本主義」が拓く、持続的な企業価値の向上。</h1>
+      <p class="lead">伊藤忠グループ ESGレポート2024の要点を、エグゼクティブ・サマリー、公式PDF、動画・音声まで一体化して確認できる紹介LPです。</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#documents">資料PDFを見る</a>
+        <a class="btn secondary" href="#human">動画・音声を確認</a>
+      </div>
+      <div class="hero-stats" aria-label="主要ポイント">
+        <div class="stat"><b>1858</b><span>創業から続く三方よし</span></div>
+        <div class="stat"><b>7</b><span>ESG視点のマテリアリティ</span></div>
+        <div class="stat"><b>2040</b><span>GHG排出量オフセットゼロを目指す</span></div>
+        <div class="stat"><b>100%</b><span>バリューチェーンの透明性へ</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="roadmap">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Roadmap</div>
+            <h2>ESGを「企業ブランド価値」と「収益基盤」に接続する全体像</h2>
+          </div>
+          <p>イントロダクション、環境、社会、ガバナンス・財務を4つの柱に整理。商人型価値創造サイクルを中心に、事業を通じた社会課題解決を見せる構成です。</p>
+        </div>
+        <div class="panel roadmap-card">
+          <img src="roadmap.png" alt="伊藤忠商事 ESGレポート2024 持続可能な価値創造へのロードマップ" />
+          <p class="note">※アップロード画像「伊藤忠商事 ESGレポート 2024：持続可能な価値創造へのロードマップ」をLP内のメイン図解として組み込みました。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="concept">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Concept</div>
+            <h2>根幹は、創業の精神「三方よし」</h2>
+          </div>
+          <p>売り手よし、買い手よし、世間よし。利益と社会価値を分けて考えるのではなく、本業の中で環境・社会・経済価値を同時に広げていく考え方です。</p>
+        </div>
+        <div class="timeline">
+          <div class="step"><b>1</b><h3>資本の投入</h3><p>人的資本、事業ポートフォリオ、顧客・パートナー資産、自然資本などを組み合わせる。</p></div>
+          <div class="step"><b>2</b><h3>マーケットイン</h3><p>市場・生活者の声を起点に、川下から新しい商いの種を見極める。</p></div>
+          <div class="step"><b>3</b><h3>社会課題の解決</h3><p>SDGs、脱炭素、人的資本、バリューチェーン、人権などに本業で取り組む。</p></div>
+          <div class="step"><b>4</b><h3>価値の拡大</h3><p>経済価値と環境・社会価値を積み上げ、企業ブランド価値の向上につなげる。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="materiality">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Materiality</div>
+            <h2>サステナビリティ上の7つの重要課題</h2>
+          </div>
+          <p>環境・社会・ガバナンスの視点を取り入れ、事業影響と社会影響の両面から重要課題を特定。リスクだけでなく機会として捉える構成です。</p>
+        </div>
+        <div class="grid cols-3">
+          <article class="card theme-card env">
+            <div>
+              <span class="pill">Environment</span>
+              <h3>環境への取り組み</h3>
+              <p>気候変動、安定的な調達・供給、資源循環、自然資本・生物多様性を、事業機会とリスク管理の両面から整理。</p>
+            </div>
+            <div class="theme-list"><div><span class="num">1</span>気候変動への取組み</div><div><span class="num">2</span>安定的な調達・供給</div></div>
+          </article>
+          <article class="card theme-card soc">
+            <div>
+              <span class="pill">Society</span>
+              <h3>社会への取り組み</h3>
+              <p>働きがい、人権、健康で豊かな生活、次世代育成、地域貢献を通じて社会価値を高める。</p>
+            </div>
+            <div class="theme-list"><div><span class="num">3</span>働きがいのある職場環境</div><div><span class="num">4</span>人権の尊重・配慮</div><div><span class="num">5</span>健康で豊かな生活への貢献</div></div>
+          </article>
+          <article class="card theme-card gov">
+            <div>
+              <span class="pill">Governance & Finance</span>
+              <h3>ガバナンスと財務</h3>
+              <p>透明性ある意思決定、リスクマネジメント、技術革新、サステナブルファイナンスを統合的に展開。</p>
+            </div>
+            <div class="theme-list"><div><span class="num">6</span>確固たるガバナンス体制</div><div><span class="num">7</span>技術革新による商いの進化</div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="human">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Human Capital</div>
+            <h2>人的資本への投資を、ブランド価値の原動力にする</h2>
+          </div>
+          <p>個々の社員の成長、働き方改革、女性活躍、健康経営、能力開発を、非財務価値の中心に据えたセクションです。</p>
+        </div>
+        <div class="split">
+          <div class="media-box">
+            <video controls preload="metadata" playsinline>
+              <source src="itochu_human_capital_small.mp4" type="video/mp4" />
+              お使いのブラウザは動画再生に対応していません。
+            </video>
+            <div class="media-caption">動画：人的資本・人材育成に関する解説素材を組み込み</div>
+          </div>
+          <div class="audio-card">
+            <span class="pill" style="background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.22)">Workstyle Reform Audio</span>
+            <h3>働き方改革の要点を音声で確認</h3>
+            <p>朝型勤務、健康と仕事の両立、多様な人材が活躍できる環境整備など、人的資本強化の文脈を音声で補足できます。</p>
+            <audio controls preload="metadata">
+              <source src="itochu_workstyle_small.m4a" type="audio/mp4" />
+              お使いのブラウザは音声再生に対応していません。
+            </audio>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="environment">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Environment / Value Chain</div>
+            <h2>環境対応を、次の商いとバリューチェーン強靭化へ</h2>
+          </div>
+          <p>気候変動、クリーンテック、自然資本・生物多様性、汚染防止、資源循環、サプライチェーンの透明性を統合して整理します。</p>
+        </div>
+        <div class="grid cols-3">
+          <article class="card"><span class="pill">Climate</span><h3>脱炭素とクリーンテック</h3><p>2040年までのGHG排出量オフセットゼロ、2050年までの実質ゼロを目指し、次世代エネルギー、サーキュラーエコノミー、排出削減技術を推進。</p></article>
+          <article class="card"><span class="pill">TNFD</span><h3>自然資本・生物多様性</h3><p>回避、軽減、復元、再生、変革というステップで、事業活動と自然資本への影響を把握し、対応を強化。</p></article>
+          <article class="card"><span class="pill">Traceability</span><h3>100%トレーサビリティ</h3><p>バリューチェーンにおける人権尊重・サプライヤー監査・安全管理を通じ、調達から製造までの透明性を高める。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="governance">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Governance & Finance</div>
+            <h2>ガバナンス、第三者保証、サステナブルファイナンス</h2>
+          </div>
+          <p>取締役会・経営会議・サステナビリティ委員会を通じた監督と、外部保証・サステナブルファイナンスにより、信頼性と実行力を担保します。</p>
+        </div>
+        <div class="grid cols-3">
+          <article class="card"><span class="pill">Governance</span><h3>全社的リスク管理体制</h3><p>サステナビリティ関連リスクを経営の重要課題として認識し、各組織のアクションプランに落とし込む。</p></article>
+          <article class="card"><span class="pill">Finance</span><h3>サステナブルファイナンス</h3><p>SDGs債やグリーンローン等を通じ、環境・社会課題の解決に資する事業へ資金を結びつける。</p></article>
+          <article class="card"><span class="pill">Assurance</span><h3>独立した第三者保証</h3><p>主要なESG指標について第三者保証を受け、開示情報の信頼性と透明性を高める。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="documents">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="section-kicker">Documents</div>
+            <h2>アップロードPDFをそのままLP内で閲覧</h2>
+          </div>
+          <p>12ページのエグゼクティブ・サマリーと、233ページの詳細版ESGレポートをタブで切り替えられる資料ビューアにしました。</p>
+        </div>
+        <div class="pdf-area">
+          <div class="pdf-tabs" role="tablist" aria-label="PDF資料切り替え">
+            <button class="tab active" data-pdf="ITOCHU_ESG_2024.pdf" data-title="エグゼクティブ・サマリー（12ページ）">エグゼクティブ・サマリー</button>
+            <button class="tab" data-pdf="24fullj-all.pdf" data-title="ESGレポート2024 詳細版（233ページ）">詳細版ESGレポート</button>
+          </div>
+          <div class="pdf-toolbar">
+            <div class="pdf-title" id="pdfTitle">エグゼクティブ・サマリー（12ページ）</div>
+            <a id="pdfDownload" class="download-mini" href="ITOCHU_ESG_2024.pdf" download>PDFをダウンロード</a>
+          </div>
+          <iframe id="pdfFrame" class="pdf-frame" src="ITOCHU_ESG_2024.pdf#view=FitH" title="PDF viewer"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="final-cta">
+          <div class="section-kicker" style="color:#a9e7ff">Summary</div>
+          <h2>ひとりの商人、無数の使命。</h2>
+          <p>本LPは、伊藤忠グループ ESGレポート2024の内容を、提案・研修・解説に使いやすい形で再構成したものです。資料、図解、動画、音声を1ページにまとめることで、ESGを「読む資料」から「伝わるコンテンツ」へ変換しています。</p>
+          <div class="sources">
+            <a class="btn secondary" href="ITOCHU_ESG_2024.pdf" download>サマリーPDF</a>
+            <a class="btn secondary" href="24fullj-all.pdf" download>詳細版PDF</a>
+            <a class="btn secondary" href="#top">ページ上部へ戻る</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <div>© ESG Report 2024 Landing Page Sample</div>
+      <div>本ページはアップロード資料をもとに作成した紹介用LPです。伊藤忠商事株式会社の公式ページではありません。</div>
+    </div>
+  </footer>
+
+  <script>
+    const tabs = document.querySelectorAll('.tab');
+    const frame = document.getElementById('pdfFrame');
+    const title = document.getElementById('pdfTitle');
+    const download = document.getElementById('pdfDownload');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        const pdf = tab.dataset.pdf;
+        frame.src = pdf + '#view=FitH';
+        title.textContent = tab.dataset.title;
+        download.href = pdf;
+      });
+    });
+  </script>
+</body>
+</html>
